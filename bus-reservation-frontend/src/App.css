@@ -1,0 +1,41 @@
+/* App.css - global background */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background image with gradient overlay for readability */
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+              url('/src/assets/bus-hero1') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+/* Optional: cards, forms, buttons styling */
+.card, .form-control, .btn {
+  border-radius: 10px;
+}
+
+.card, .landing-hero, .landing-section {
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent for readability */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+/* Navbar transparent with slight blur */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(5px);
+}
+
+/* Buttons style */
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}

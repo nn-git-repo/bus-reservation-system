@@ -1,0 +1,30 @@
+# ===== Backend (Spring Boot / Java) =====
+bus-reservation-backend/target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.vscode/
+.DS_Store
+
+# Ignore sensitive Spring configs
+bus-reservation-backend/src/main/resources/application.properties
+bus-reservation-backend/src/main/resources/application.yml
+bus-reservation-backend/.env
+
+# ===== Frontend (React) =====
+bus-reservation-frontend/node_modules/
+bus-reservation-frontend/dist/
+bus-reservation-frontend/build/
+bus-reservation-frontend/.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== System Files =====
+Thumbs.db
+
+# Ignore env files (anywhere)
+.env
